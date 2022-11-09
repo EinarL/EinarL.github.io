@@ -1,2 +1,9 @@
-- name: ShellCheck
-  uses: ludeeus/action-shellcheck@1.1.0
+name: Shellckeck
+run-name: bruh
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+    - name: ShellCheck
+      uses: ludeeus/action-shellcheck@1.1.0
